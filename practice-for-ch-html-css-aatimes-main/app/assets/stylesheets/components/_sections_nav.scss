@@ -1,0 +1,17 @@
+@use '../variables' as *;
+
+section {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid $light-gray;
+
+    a {
+        margin-left: 10px;
+        margin: 10px;
+        font-family: $sans-serif;
+    }
+
+    a:hover {
+        background-color: $lightest-gray;
+    }
+}
