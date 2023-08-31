@@ -1,0 +1,15 @@
+/* PHASE 1: Header */
+body {
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: small;
+}
+.header {
+    width: 100%;
+    display: block;
+}
+.header-nav {
+    display: block;
+    /* justify-content: space-between;
+    align-content: center; */
+}
