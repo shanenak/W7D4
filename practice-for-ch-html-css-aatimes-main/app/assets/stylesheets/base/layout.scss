@@ -7,25 +7,35 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
 button {
 	// background-color:
 	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 5px;
+	// transition: 
+	font-family:Arial, Helvetica, sans-serif;
 	// text-transform:
 	// font-size:
 	// text-align:
 }
 
+.subscribe {
+	background-color: #3a648a;
+}
+.log-in {
+	background-color: #648ca8;
+}
+
 button:hover {
-	// background-color:
+	background-color: black;
 	// border-color:
 }
 
