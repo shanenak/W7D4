@@ -1,46 +1,55 @@
 @use '../variables' as *;
 
 .main-nav {
-  
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .left-nav {
-
+  
   > ul {
     > li {
-      
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 10px;
     }
   }
 
-  span {
-    
+  #search-modal-btn {
+    padding: 8px;
+    background-color: $lightest-gray;
+    border-radius: 4px;
   }
 }
 
 .right-nav  {
   > ul {
     > li {
-      
+      margin: 4px;
     }
 
     > li:last-of-type {
-      
+      font-size: medium;
     }
   }
   
-  i {
-    
+  #gear-btn {
+    padding: 4px;
+    background-color: $lightest-gray;
+    border-radius: 4px;
   }
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-  
+  background-color: $lightest-gray;
 }
-
-    
