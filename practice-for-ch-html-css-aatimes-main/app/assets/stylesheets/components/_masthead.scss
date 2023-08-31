@@ -26,6 +26,10 @@
 		color: $dark-gray;
 	}
 
+	a:first-child {
+		font-weight: bold;
+	}
+
 	ul {
 		display: flex;
 	}
@@ -46,6 +50,10 @@
 	li {
 		margin-left: 10px;
 		border-right: 1px solid $light-gray;
+	}
+
+	li:last-child {
+		border-right: none;
 	}
 
 	button {
